@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#ED27C121">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/k1"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_margin="10dp"
+                android:onClick="klikKosc"
+                android:src="@drawable/kosc1"/>
+
+            <ImageView
+                android:id="@+id/k2"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_margin="10dp"
+                android:onClick="klikKosc"
+                android:src="@drawable/kosc1"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/k3"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_margin="10dp"
+                android:onClick="klikKosc"
+                android:src="@drawable/kosc1"/>
+
+            <ImageView
+                android:id="@+id/k4"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_margin="10dp"
+                android:onClick="klikKosc"
+                android:src="@drawable/kosc1"/>
+
+            <ImageView
+                android:id="@+id/k5"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_margin="10dp"
+                android:onClick="klikKosc"
+                android:src="@drawable/kosc1"/>
+        </LinearLayout>
+        <Button
+            android:id="@+id/btnRzut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RZUT"
+            android:layout_margin="10dp"
+            android:background="#ED275021"
+            android:onClick="rzut"/>
+
+        <TextView
+            android:id="@+id/txtWynik"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="40sp"
+            android:layout_margin="10dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
